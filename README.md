@@ -34,6 +34,12 @@ You may position anything within the grid by referencing some `x,y` coordinates 
 |  -  |  -  |  -  |  -  |
 |  A  |  -  |  -  |  -  |
 
+|  0,4  |  1,4  |  2,4  |  3,4  |
+|  0,3  |  1,3  |  2,3  |  3,3  |
+|  0,2  |  1,2  |  2,2  |  3,2  |
+|  0,1  |  1,1  |  2,1  |  3,1  |
+|  0,0  |  1,0  |  2,0  |  3,0  |
+
 Here `A is 0,0` and `B is 3,4`
 
 Now, to retrieve a cells information from within the grid call the `grid.coord` method whilst passing in your x,y coordinates. This will return an object with height, width, left and bottom attributes, not overly usefull. 
